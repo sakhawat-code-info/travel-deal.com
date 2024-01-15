@@ -1,11 +1,108 @@
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .example {
+@media only screen and (max-width: 375px) {
+    /* body {
         background: red;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .footer_section {
+        padding: 10px 0;
     }
+
+    .footer_content {
+        width: 375px;
+    }
+    .footer_content>h1 {
+        font-size: 20px;
+    }
+
+    .footer_discription {
+        width: 100%;
+        margin: 0;
+    }
+     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
