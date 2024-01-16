@@ -23,6 +23,21 @@ body {
     font-weight: 400;
 }
 
+
+
+.heading {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section_heding {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
 .p_light {
     color: #5A5A5D;
     font-size: 16px;
@@ -31,12 +46,12 @@ body {
     line-height: 26px;
 }
 
-.heading {
-    color: #131318;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+.p_section {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    width: 643px;
+    margin: 0 auto 40px auto;
+
 }
 
 .btn_primary {
@@ -53,8 +68,38 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* header section code  */
-.header_containar {
+.header_containar,
+main {
     width: 1170px;
     margin: 0 auto;
 }
@@ -216,6 +261,7 @@ input[type=button] {
 .popular_tour_content>ul {
     padding: 0px 34px;
 }
+
 .popular_tour_content>ul>li {
     margin-bottom: 15px;
 }
@@ -243,22 +289,117 @@ input[type=button] {
 
 
 .choose_destination {}
-.choose_destination_content >h2{
 
+.choose_destination_content {
+    text-align: center;
 }
-.choose_destination_content >p {
 
-}
-.choose_destinaton_grid_image_containar {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 30px;
+.section_heding {
+    text-align: center;
+    margin-bottom: 24px;
 }
 
 
-#choose_destination_single_img1{
-    grid-column: 1 / 7;
+.p_section {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    width: 643px;
+    margin: 0 auto 40px auto;
+
 }
-#choose_destination_single_img2{
-    grid-column: 7 / 13;
+
+.choose_us_box_container {
+    /* display: flex; */
+}
+
+
+
+.choose_us_box {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+.choose_us_box img {
+    width: 64px;
+    height: 64px;
+}
+.choose_us_box h2 {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.choose_us_box p {
+    margin: 30px 0;
+}
+
+
+
+
+/* Discount section  */
+
+
+.discount_single_content {
+    height: 500px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.discount_single_content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;   
+}
+
+.discount_relative {
+    position: absolute;
+    top: 56px;
+    right: 56px;
+    width: 579px;
+    height: 389px;
+    z-index: 4;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+}
+.discount_date ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin-bottom: 24px;
+}
+.discount_date ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount_date ul li img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.discount_content h2 {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.discount_content p {
+    margin: 16px 0;
+}
+.discount_content h3 {
+    margin-bottom: 24px;
+    color: var(--primary_color);
+}
+.discount_content button {
+    margin: 20px 0;
+    padding: 15px 24px;
 }
