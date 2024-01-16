@@ -443,6 +443,9 @@ margin-bottom: 32px;
     backdrop-filter: blur(2.5px);
     padding: 50px;
 }
+.discount_relative_2 {
+    left: 56px;
+}
 
 .discount_date ul {
     display: flex;
